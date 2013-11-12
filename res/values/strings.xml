@@ -19,5 +19,7 @@
     <string name="result">Résultat</string>
     <string name="recommencer_simu">Recommencer la simulation</string>
     <string name="resume">Résumé</string>
-
+	<string name="recette_activity">RecettesActivity</string>
+    
+    
 </resources>
