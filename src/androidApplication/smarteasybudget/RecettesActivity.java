@@ -34,20 +34,21 @@ public class RecettesActivity extends Activity {
 		ajouter.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
+				h = new Hashtable<String,Float> ();
 				
-				if ((edit_description.getText().toString()==null) && (edit_montant.getText().toString()==null) ){	
+				if ((edit_description.getText().toString().equals("")) && (edit_montant.getText().toString().equals("")) ){	
 					Toast.makeText(RecettesActivity.this, "Veuillez remplir le champ description et montant", Toast.LENGTH_SHORT).show();	
 				} 
-				else if (edit_description.getText().toString()==null){
+				else if (edit_description.getText().toString().equals("")){
 					Toast.makeText(RecettesActivity.this, "Veuillez remplir le champ description", Toast.LENGTH_SHORT).show();
 				}
-				else if (edit_montant.getText().toString()==null){
+				else if (edit_montant.getText().toString().equals("")){
 					Toast.makeText(RecettesActivity.this, "Veuillez remplir le champ montant", Toast.LENGTH_SHORT).show();
 				}	
 				else{ 
-					h.put(edit_description.getText().toString(), Float.parseFloat(edit_montant.getText().toString()));
-					edit_description.setText("");
-					edit_montant.setText("");
+				h.put(edit_description.getText().toString(), Float.parseFloat(edit_montant.getText().toString()));
+				edit_description.setText("");
+				edit_montant.setText("");
 				}
 			 }
 		 });

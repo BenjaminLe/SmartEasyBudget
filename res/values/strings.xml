@@ -20,6 +20,6 @@
     <string name="recommencer_simu">Recommencer la simulation</string>
     <string name="resume">Résumé</string>
 	<string name="recette_activity">RecettesActivity</string>
-    
+    <string name="depense_activity">DepensesActivity</string>
     
 </resources>

@@ -62,6 +62,7 @@ public final class R {
         public static final int ajouter=0x7f050009;
         public static final int app_name=0x7f050000;
         public static final int contacts=0x7f050003;
+        public static final int depense_activity=0x7f050013;
         public static final int description=0x7f05000a;
         public static final int developer=0x7f05000b;
         public static final int entrer_depenses=0x7f05000e;
