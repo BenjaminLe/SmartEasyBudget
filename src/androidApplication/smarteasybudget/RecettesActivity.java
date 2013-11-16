@@ -17,7 +17,7 @@ public class RecettesActivity extends Activity {
 	private EditText edit_description = null;
 	private EditText edit_montant = null;
  	private Button suivant = null;
-	
+	private float totalRecette = 0;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -46,7 +46,9 @@ public class RecettesActivity extends Activity {
 					Toast.makeText(RecettesActivity.this, "Veuillez remplir le champ montant", Toast.LENGTH_SHORT).show();
 				}	
 				else{ 
+				Toast.makeText(RecettesActivity.this,"Ajout Enregistré", Toast.LENGTH_SHORT).show();	
 				h.put(edit_description.getText().toString(), Float.parseFloat(edit_montant.getText().toString()));
+				totalRecette= totalRecette + h.get(edit_description.getText().toString());
 				edit_description.setText("");
 				edit_montant.setText("");
 				}
@@ -57,6 +59,7 @@ public class RecettesActivity extends Activity {
 			@Override
 			public void onClick(View v) {      
 				Intent intent = new Intent(RecettesActivity.this, DepensesActivity.class);
+				//intent.put
 				startActivity(intent);
 			 }
 		 });
