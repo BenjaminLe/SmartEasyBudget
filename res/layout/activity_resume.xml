@@ -26,6 +26,14 @@
 	        android:textStyle="bold"
 	        android:text="@string/resume" />
 	
+	        <TextView
+	        android:id="@+id/textview_test_total_depense"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textStyle="bold"
+	        android:text="@string/resume" />
+	     
 	    <Button
 	        android:id="@+id/button_suivant_resume"
 	        android:layout_width="100dp"
