@@ -26,5 +26,6 @@
     <string name="recette_activity">RecettesActivity</string>
     <string name="entrer_recettes">Entrez vos recettes:</string>
     <string name="entrer_depenses">Entrez vos dépenses:</string>
+    <string name="recapitulatif_activity">RecapitulatifActivity</string>
     
 </resources>

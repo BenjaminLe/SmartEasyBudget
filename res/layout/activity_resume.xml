@@ -6,11 +6,22 @@
     android:layout_height="wrap_content"
     tools:context=".MainActivity" >
 
-   <TableLayout>
+   <TableLayout
+       android:layout_width="fill_parent"
+	   android:layout_height="wrap_content"
+	   android:stretchColumns="1" >
 	    <TextView
 	        android:id="@+id/textview_resume"
-	        android:layout_width="300dp"
-	        android:layout_height="50dp"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textStyle="bold"
+	        android:text="@string/resume" />
+	    
+	     <TextView
+	        android:id="@+id/textview_test_total_recette"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
 	        android:gravity="center"
 	        android:textStyle="bold"
 	        android:text="@string/resume" />

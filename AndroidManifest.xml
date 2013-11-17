@@ -36,7 +36,10 @@
             android:label="@string/depense_activity" />
           <activity
             android:name="androidApplication.smarteasybudget.Transaction"
-            android:label="@string/transaction" />                     
+            android:label="@string/transaction" />
+          <activity
+            android:name="androidApplication.smarteasybudget.RecapitulatifActivity"
+            android:label="@string/recapitulatif_activity" />                    
     </application>
     
 
