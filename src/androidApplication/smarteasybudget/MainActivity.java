@@ -48,7 +48,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 		switch(v.getId()){
 		
 		case R.id.button_lancer_simulation:
-			Intent intent1 = new Intent(MainActivity.this, RecettesActivity.class);
+			Intent intent1 = new Intent(MainActivity.this, Transaction.class);
 			startActivity(intent1);
 			break;
 			

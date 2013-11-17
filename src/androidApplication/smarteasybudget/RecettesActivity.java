@@ -19,6 +19,8 @@ public class RecettesActivity extends Activity {
  	private Button suivant = null;
 	private float totalRecette = 0;
 	
+//	final String EXTRA_RECETTE = "total_recette";
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -59,7 +61,7 @@ public class RecettesActivity extends Activity {
 			@Override
 			public void onClick(View v) {      
 				Intent intent = new Intent(RecettesActivity.this, DepensesActivity.class);
-				//intent.put
+			//	intent.putExtra(EXTRA_RECETTE, totalRecette);
 				startActivity(intent);
 			 }
 		 });

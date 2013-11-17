@@ -8,13 +8,14 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <TextView
+
+       <TextView
         android:id="@+id/textview_entrer_recettes"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
         android:text="@string/entrer_recettes" />
-
+    
     <Button
         android:id="@+id/button_ajouter_recette"
         android:layout_width="100dp"

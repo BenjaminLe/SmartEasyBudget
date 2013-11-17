@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <resources>
 
     <string name="app_name">SmartEasyBudget</string>
@@ -7,7 +8,6 @@
     <string name="contacts">Contacts</string>
     <string name="gerer_budget">Apprenez à gérer votre budget</string>
     <string name="lancer_simulation">Lancer la simulation</string>
-    <string name="entrer_recettes">Entrez vos recettes:</string>
     <string name="suivant">Suivant</string>
     <string name="montant">Montant</string>
     <string name="ajouter">Ajouter</string>
@@ -15,11 +15,16 @@
     <string name="developer">Développeur: Benjamin Le</string>
     <string name="mail">Addresse e-mail: benle@hotmail.fr</string>
     <string name="menu_principal">Menu principal</string>
-    <string name="entrer_depenses">Entrez vos dépenses:</string>
     <string name="result">Résultat</string>
     <string name="recommencer_simu">Recommencer la simulation</string>
-    <string name="resume">Résumé</string>
-	<string name="recette_activity">RecettesActivity</string>
+    <string name="resume">Récapitulatif: Recettes et Dépenses</string>
+    <string name="transaction">Transaction</string>
+    <string name="ajout_transaction">Ajoutez une transaction</string>
+    <string name="recette">Recette</string>
+    <string name="depense">Dépense</string>
     <string name="depense_activity">DepensesActivity</string>
+    <string name="recette_activity">RecettesActivity</string>
+    <string name="entrer_recettes">Entrez vos recettes:</string>
+    <string name="entrer_depenses">Entrez vos dépenses:</string>
     
 </resources>

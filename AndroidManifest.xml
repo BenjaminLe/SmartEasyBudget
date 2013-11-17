@@ -34,7 +34,9 @@
           <activity
             android:name="androidApplication.smarteasybudget.DepensesActivity"
             android:label="@string/depense_activity" />
-                               
+          <activity
+            android:name="androidApplication.smarteasybudget.Transaction"
+            android:label="@string/transaction" />                     
     </application>
     
 
