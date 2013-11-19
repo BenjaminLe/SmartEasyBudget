@@ -1,15 +1,12 @@
   
-<ScrollView  
-    xmlns:android="http://schemas.android.com/apk/res/android"
+   <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    tools:context=".MainActivity" >
-
-   <TableLayout
+       android:id="@+id/table_layout_resume"
        android:layout_width="fill_parent"
 	   android:layout_height="wrap_content"
 	   android:stretchColumns="1" >
+	   
+       
 	    <TextView
 	        android:id="@+id/textview_resume"
 	        android:layout_width="fill_parent"
@@ -18,29 +15,73 @@
 	        android:textStyle="bold"
 	        android:text="@string/resume" />
 	    
+	    <View
+		 	  android:layout_height="2dip"
+		 	  android:background="#FF909090" />
+ 					
+	    
+	    <TableRow>
+	    
 	     <TextView
 	        android:id="@+id/textview_test_total_recette"
-	        android:layout_width="fill_parent"
+	        android:layout_width="wrap_content"
 	        android:layout_height="fill_parent"
-	        android:gravity="center"
-	        android:textStyle="bold"
+	        android:gravity="center" 
 	        android:text="@string/resume" />
 	
+	     
+	     
 	        <TextView
 	        android:id="@+id/textview_test_total_depense"
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:text="@string/resume" />
+	     
+	        </TableRow>
+	        
+	     <View
+		 	  android:layout_height="2dip"
+		 	  android:background="#FF909090" />
+	    
+	     <TextView
+	        android:id="@+id/textview_montant_restant"
 	        android:layout_width="fill_parent"
 	        android:layout_height="fill_parent"
 	        android:gravity="center"
 	        android:textStyle="bold"
 	        android:text="@string/resume" />
 	     
-	    <Button
-	        android:id="@+id/button_suivant_resume"
+ 
+	       <View
+		 	  android:layout_height="50dip"
+		 	  android:background="#FFFFFF" />
+	     
+	       <TextView
+	        android:id="@+id/textview_result_conseil"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textStyle="bold"
+	        android:text="@string/resume" />
+	       
+	       <View
+		 	  android:layout_height="50dip"
+		 	  android:background="#FFFFFF" />
+	       
+	     <Button
+	        android:id="@+id/button_menu_resume"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="23dp"
+	        android:text="@string/menu_principal" />
+	    
+	     <Button
+	        android:id="@+id/button_recommencer_simu"
 	        android:layout_width="100dp"
 	        android:layout_height="wrap_content"
 	        android:layout_marginBottom="23dp"
-	        android:text="@string/suivant" />
+	        android:text="@string/recommencer_simu" />
 
     </TableLayout> 
     
-</ScrollView>

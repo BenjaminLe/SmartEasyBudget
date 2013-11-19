@@ -1,5 +1,6 @@
 package androidApplication.smarteasybudget;
 
+import java.util.ArrayList;
 import java.util.Hashtable;
 
 import android.os.Bundle;
@@ -23,9 +24,21 @@ public class Transaction extends Activity {
 	private RadioGroup radioGr_transaction = null;
 	private RadioButton radioButton_recette = null;
 	private RadioButton radioButton_depense = null;
+	private ArrayList<String> listeDescriptionRecette = null;
+/*	private ArrayList listeDescriptionDepense = null;
+	private ArrayList listeMontantRecette = null;
+	private ArrayList listeMontantDepense = null; */ 
 	
 	final String EXTRA_RECETTE = "total_recette";
 	final String EXTRA_DEPENSE = "total_depense";
+//	final String EXTRA_TABLERECETTE = "table_recette";
+//	final String EXTRA_TABLEDEPENSE = "table_depense";
+	
+	final String EXTRA_LISTE_DESCRIPTION_RECETTE = "total_recette";
+//	final String EXTRA_LISTE_DESCRIPTION_DE = "total_depense";
+	
+	
+	
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -70,6 +83,7 @@ public class Transaction extends Activity {
 			public void onClick(View v) {
 				h_recette = new Hashtable<String,Float> ();
 				h_depense = new Hashtable<String,Float> ();
+				listeDescriptionRecette = new ArrayList<String> ();
 				
 				if ((edit_description.getText().toString().equals("")) && (edit_montant.getText().toString().equals("")) ){	
 					Toast.makeText(Transaction.this, "Veuillez remplir le champ description et montant", Toast.LENGTH_SHORT).show();	
@@ -85,6 +99,8 @@ public class Transaction extends Activity {
 					Toast.makeText(Transaction.this,"Ajout Recette Enregistré", Toast.LENGTH_SHORT).show();	
 					h_recette.put(edit_description.getText().toString(), Float.parseFloat(edit_montant.getText().toString()));
 					totalRecette= totalRecette + h_recette.get(edit_description.getText().toString());
+				//	listeDescriptionRecette.add(edit_description.getText().toString());
+				//	listeMontantRecette.add(Float.parseFloat(edit_montant.getText().toString()));
 					edit_description.setText("");
 					edit_montant.setText("");
 				}
@@ -92,6 +108,8 @@ public class Transaction extends Activity {
 					Toast.makeText(Transaction.this,"Ajout Dépense Enregistré", Toast.LENGTH_SHORT).show();	
 					h_depense.put(edit_description.getText().toString(), Float.parseFloat(edit_montant.getText().toString()));
 					totalDepense= totalDepense + h_depense.get(edit_description.getText().toString());
+				//	listeDescriptionDepense.add(edit_description.getText().toString());
+				//	listeMontantDepense.add(Float.parseFloat(edit_montant.getText().toString()));
 					edit_description.setText("");
 					edit_montant.setText("");
 					
@@ -105,6 +123,7 @@ public class Transaction extends Activity {
 				Intent intent = new Intent(Transaction.this, RecapitulatifActivity.class);
 			    intent.putExtra(EXTRA_RECETTE, totalRecette);
 			    intent.putExtra(EXTRA_DEPENSE, totalDepense);
+			  //  intent.putExtra(EXTRA_LISTE_DESCRIPTION_RECETTE, listeDescriptionRecette);
 				startActivity(intent);
 			 }
 		 });

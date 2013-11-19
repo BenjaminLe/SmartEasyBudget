@@ -21,18 +21,9 @@
         android:id="@+id/textview_developer"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:layout_alignLeft="@+id/textview_contacts"
         android:layout_centerVertical="true"
         android:text="@string/developer" />
 
-    <TextView
-        android:id="@+id/textview_contacts"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
-        android:text="@string/contacts" />
 
     <Button
         android:id="@+id/button_menu_principal_contacts"
