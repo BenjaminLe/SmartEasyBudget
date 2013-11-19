@@ -5,8 +5,7 @@
        android:layout_width="fill_parent"
 	   android:layout_height="wrap_content"
 	   android:stretchColumns="1" >
-	   
-       
+	          
 	    <TextView
 	        android:id="@+id/textview_resume"
 	        android:layout_width="fill_parent"
@@ -19,7 +18,6 @@
 		 	  android:layout_height="2dip"
 		 	  android:background="#FF909090" />
  					
-	    
 	    <TableRow>
 	    
 	     <TextView

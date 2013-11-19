@@ -56,7 +56,7 @@ public class Transaction extends Activity {
 			
 			
 		    // On rajoute un Listener sur le changement de RadioButton sélectionné
-		    radioGr_transaction.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+			radioGr_transaction.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
 		      @Override
 		      public void onCheckedChanged(RadioGroup group, int checkedId) {
 		    /*    // En fonction de l'identifiant du RadioButton sélectionné…
@@ -74,7 +74,7 @@ public class Transaction extends Activity {
 		       
 				} */
 		      }
-		    });
+		    }); 
 		
 		
 					
