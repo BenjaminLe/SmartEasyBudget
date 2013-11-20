@@ -2,6 +2,7 @@ androidApplication\smarteasybudget\Transaction$2.class
 androidApplication\smarteasybudget\R$id.class
 androidApplication\smarteasybudget\RecapitulatifActivity.class
 androidApplication\smarteasybudget\RecettesActivity$1.class
+androidApplication\smarteasybudget\RecapitulatifActivity$2.class
 androidApplication\smarteasybudget\R$style.class
 androidApplication\smarteasybudget\DepensesActivity$1.class
 androidApplication\smarteasybudget\Contacts.class
@@ -18,5 +19,6 @@ androidApplication\smarteasybudget\Transaction$3.class
 androidApplication\smarteasybudget\DepensesActivity$2.class
 androidApplication\smarteasybudget\RecettesActivity$2.class
 androidApplication\smarteasybudget\DepensesActivity.class
+androidApplication\smarteasybudget\RecapitulatifActivity$1.class
 androidApplication\smarteasybudget\R$dimen.class
 androidApplication\smarteasybudget\R$layout.class

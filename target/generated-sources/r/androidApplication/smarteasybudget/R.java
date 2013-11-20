@@ -24,46 +24,47 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f08001e;
+        public static final int action_settings=0x7f080020;
         public static final int button_ajouter_recette=0x7f080001;
-        public static final int button_ajouter_transaction=0x7f080016;
+        public static final int button_ajouter_transaction=0x7f080019;
         public static final int button_contacts=0x7f080008;
         public static final int button_lancer_simulation=0x7f080009;
-        public static final int button_menu_principal_contacts=0x7f08001d;
-        public static final int button_menu_principal_result=0x7f08000c;
-        public static final int button_recommencer_simu=0x7f08000d;
+        public static final int button_menu_principal_contacts=0x7f08001f;
+        public static final int button_menu_resume=0x7f080011;
+        public static final int button_recommencer_simu=0x7f080012;
         public static final int button_suivant_recette=0x7f080002;
-        public static final int button_suivant_resume=0x7f08000f;
-        public static final int button_suivant_transaction=0x7f080015;
+        public static final int button_suivant_transaction=0x7f080018;
         public static final int edittext_description_recette=0x7f080004;
-        public static final int edittext_description_transaction=0x7f080012;
+        public static final int edittext_description_transaction=0x7f080015;
         public static final int edittext_montant_recette=0x7f080006;
-        public static final int edittext_montant_transaction=0x7f080014;
-        public static final int radioB_depense=0x7f080019;
-        public static final int radioB_recette=0x7f080018;
-        public static final int radioGroup_transaction=0x7f080017;
-        public static final int textview_ajout_transaction=0x7f080010;
-        public static final int textview_contacts=0x7f08001c;
+        public static final int edittext_montant_transaction=0x7f080017;
+        public static final int radioB_depense=0x7f08001c;
+        public static final int radioB_recette=0x7f08001b;
+        public static final int radioGroup_transaction=0x7f08001a;
+        public static final int table_layout_resume=0x7f08000b;
+        public static final int textview_ajout_transaction=0x7f080013;
         public static final int textview_description_recette=0x7f080003;
-        public static final int textview_description_transaction=0x7f080011;
-        public static final int textview_developer=0x7f08001b;
+        public static final int textview_description_transaction=0x7f080014;
+        public static final int textview_developer=0x7f08001e;
         public static final int textview_entrer_depenses=0x7f080000;
         public static final int textview_entrer_recettes=0x7f08000a;
         public static final int textview_gerer_budget=0x7f080007;
-        public static final int textview_mail=0x7f08001a;
+        public static final int textview_mail=0x7f08001d;
         public static final int textview_montant_recette=0x7f080005;
-        public static final int textview_montant_transaction=0x7f080013;
-        public static final int textview_result=0x7f08000b;
-        public static final int textview_resume=0x7f08000e;
+        public static final int textview_montant_restant=0x7f08000f;
+        public static final int textview_montant_transaction=0x7f080016;
+        public static final int textview_result_conseil=0x7f080010;
+        public static final int textview_resume=0x7f08000c;
+        public static final int textview_test_total_depense=0x7f08000e;
+        public static final int textview_test_total_recette=0x7f08000d;
     }
     public static final class layout {
         public static final int activity_depenses=0x7f030000;
         public static final int activity_main=0x7f030001;
         public static final int activity_recettes=0x7f030002;
-        public static final int activity_result=0x7f030003;
-        public static final int activity_resume=0x7f030004;
-        public static final int activity_transaction=0x7f030005;
-        public static final int contacts=0x7f030006;
+        public static final int activity_resume=0x7f030003;
+        public static final int activity_transaction=0x7f030004;
+        public static final int contacts=0x7f030005;
     }
     public static final class menu {
         public static final int main=0x7f070000;
@@ -86,6 +87,7 @@ public final class R {
         public static final int mail=0x7f05000b;
         public static final int menu_principal=0x7f05000c;
         public static final int montant=0x7f050007;
+        public static final int recapitulatif_activity=0x7f050018;
         public static final int recette=0x7f050012;
         public static final int recette_activity=0x7f050015;
         public static final int recommencer_simu=0x7f05000e;

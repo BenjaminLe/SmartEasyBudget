@@ -1,13 +1,9 @@
 package androidApplication.smarteasybudget;
 
-import java.util.ArrayList;
-
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
-import android.graphics.Color;
 import android.widget.*;
-import android.widget.TableRow.LayoutParams;
 import android.view.*;
 
 

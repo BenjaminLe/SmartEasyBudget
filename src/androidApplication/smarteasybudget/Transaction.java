@@ -38,8 +38,6 @@ public class Transaction extends Activity {
 //	final String EXTRA_LISTE_DESCRIPTION_DE = "total_depense";
 	
 	
-	
-	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
